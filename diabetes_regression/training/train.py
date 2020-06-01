@@ -79,7 +79,6 @@ def main():
     for (k, v) in metrics.items():
         print(f"{k}: {v}")
 
-
 if __name__ == '__main__':
     main()
     #esto es un ejemplo
