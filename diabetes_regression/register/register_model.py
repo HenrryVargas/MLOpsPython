@@ -105,7 +105,7 @@ def main():
             model_tags[tag] = mtag
         except KeyError:
             print(f"Could not find {tag} metric on parent run.")
-
+            
     # load the model
     print("Loading model from " + model_path)
     model_file = os.path.join(model_path, model_name)
